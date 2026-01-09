@@ -1,0 +1,45 @@
+// pch.h: This is a precompiled header file.
+// Files listed below are compiled only once, improving build performance for
+// future builds. This also affects IntelliSense performance, including code
+// completion and many code browsing features. However, files listed here are
+// ALL re-compiled if any one of them is updated between builds. Do not add
+// files here that you will be updating frequently as this negates the
+// performance advantage.
+
+#ifndef PCH_H
+#define PCH_H
+// #define WIN32_LEAN_AND_MEAN // Exclude rarely-used stuff from Windows headers
+
+// STANDARD LIBRARIES
+#include <Windows.h>
+#include <Psapi.h>
+#include <TlHelp32.h>
+
+#include <algorithm>
+#include <chrono>
+#include <conio.h>
+#include <iostream>
+#include <string>
+#include <thread>
+#include <vector>
+
+// DIRECTX
+#include <d3d11.h>
+#pragma comment(lib, "d3d11.lib")
+
+//	GAMEPAD
+#include <XInput.h>
+#pragma comment(lib, "XInput.lib")
+
+//	INTERNET
+#include <Wininet.h>
+#pragma comment(lib, "ws2_32.lib")
+#pragma comment(lib, "wininet.lib")
+
+// MINHOOK
+#include "libs/MinHook/MinHook.h"
+
+//	SDK ( shit takes way to long to compile , now a static library )
+#include <SDK.hpp>
+
+#endif // PCH_H
