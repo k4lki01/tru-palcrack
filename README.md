@@ -1,4 +1,4 @@
-# PalWorld-NetCrack  
+# tru-palcrack
 > [!Note]
 > **THIS IS THE STEAM VERSION**
 ## 
@@ -45,7 +45,7 @@
 - Move SDK folder and SDK.hpp into SDKLibrary solution folder  
 - Attempt to compile, fix all errors by changing class and member names ( redifition errors )  
 - Update APalPlayerCharacter::Tick offset by searching for the aob in cheat engine   
-- compile Palworld-Netcrack and execute the launcher in the bin folder  
+- compile tru-palcrack and execute the launcher in the bin folder  
 
 <Details>  
   <Summary>AOBS</Summary>  
@@ -60,12 +60,13 @@
 </Details>  
 
 ### KNOWN ISSUES
-- Some features will cause a crash if toggled before loading into a world  
-- returning to the main menu and attempting to join another world will likely crash the game  
+btw maybe the item thing is just patched so no items i guess.
+too many.... lets ignore the problems.  
 
 ## External Library Credits  
 [Dear ImGui](https://github.com/ocornut/imgui)  
 [MinHook](https://github.com/TsudaKageyu/minhook)  
 [Dumper7](https://github.com/Encryqed/Dumper-7)  
 [DX11-Internal-Base](https://github.com/NightFyre/DX11-ImGui-Internal-Hook)  
-[Palworld Reversal, Structs and Offsets](https://www.unknowncheats.me/forum/palworld/620076-palworld-reversal-structs-offsets.html)  
+[Palworld Reversal, Structs and Offsets](https://www.unknowncheats.me/forum/palworld/620076-palworld-reversal-structs-offsets.html)
+
