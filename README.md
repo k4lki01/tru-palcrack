@@ -62,6 +62,7 @@
 ### KNOWN ISSUES
 btw maybe the item thing is just patched so no items i guess.
 too many.... lets ignore the problems.  
+chavda8203 (current devloper is ass)
 
 ## External Library Credits  
 [Dear ImGui](https://github.com/ocornut/imgui)  
